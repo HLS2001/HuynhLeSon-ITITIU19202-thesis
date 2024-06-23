@@ -27,17 +27,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 cred = credentials.Certificate("pre-thesis-c1f05-firebase-adminsdk-lqnb3-c6ea7bff1a.json")
 firebase_admin.initialize_app(cred, {'databaseURL': 'https://pre-thesis-c1f05-default-rtdb.firebaseio.com/'})
 
-# Pyrebase config
-firebase_config = {
-    "apiKey": "AIzaSyB5caZ3uhFrxMbL5QZOZ6aI3KO5YUAUej0",  # Replace with your actual API key
-    "authDomain": "pre-thesis-c1f05.firebaseapp.com",
-    "databaseURL": "https://pre-thesis-c1f05-default-rtdb.firebaseio.com",
-    "projectId": "pre-thesis-c1f05",
-    "storageBucket": "pre-thesis-c1f05.appspot.com",
-    "messagingSenderId": "1000043916779",
-    "appId": "1:1000043916779:web:ef85a69f20a4a9b2217dae",
-    "measurementId": "G-8PJM5QWN5F"
-}
+
 
 firebase = pyrebase.initialize_app(firebase_config)
 firebase_auth = firebase.auth()
