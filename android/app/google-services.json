@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1000043916779",
+    "firebase_url": "https://pre-thesis-c1f05-default-rtdb.firebaseio.com",
+    "project_id": "pre-thesis-c1f05",
+    "storage_bucket": "pre-thesis-c1f05.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1000043916779:android:82ece73fae036953217dae",
+        "android_client_info": {
+          "package_name": "com.example.flutter_testt"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAad67JL8_NuOD32JpsbIPlBt1tMlOBQrs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
