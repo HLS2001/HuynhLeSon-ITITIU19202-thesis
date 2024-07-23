@@ -24,8 +24,8 @@ CORS(app)  # This will enable CORS for all routes
 app.config['SECRET_KEY'] = 'secretkey'  
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-cred = credentials.Certificate("pre-thesis-c1f05-firebase-adminsdk-lqnb3-c6ea7bff1a.json")
-firebase_admin.initialize_app(cred, {'databaseURL': 'https://pre-thesis-c1f05-default-rtdb.firebaseio.com/'})
+cred = credentials.Certificate(".json")
+firebase_admin.initialize_app(cred, {'databaseURL': ''})
 
 
 
